@@ -4,4 +4,9 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "dotenv>=0.9.9",
+    "marimo>=0.24.0",
+    "pyfredapi>=0.10.2",
+    "sktime[all-extras]>=1.1.0",
+]
